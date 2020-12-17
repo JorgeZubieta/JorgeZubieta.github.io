@@ -8,18 +8,18 @@
   </head>
   
   <body>
-    <header>
+    <header class="header">
     <div>
-        <figure>
+        <figure class="logo">
           <img src="https://i.imgur.com/noHVV92.jpg" alt="Imagen logo no encontrada" width="100" height="100"> 
         </figure>
-        <nav>
+        <nav class="menu">
           <ol>
             <li>
               <a class="link" href="#portafolio">Portafolio</a>
             </li>
             <li>
-              <a class="link" href="#experiencia">Experiencia</a>
+              <a class="link" href="#eventos">Experiencia</a>
             </li>
             <li>
               <a class="link" href="#contacto">Creamos algo juntos</a>
@@ -29,45 +29,47 @@
       </div>
     </header>
     
-    <section>
+    <section class="hero">
         <h1>
             <strong>Hola Soy Jorge Zubieta </strong><br/> Frontend Developer <br/> <strong>en continua formación</strong>
         </h1>
-        <img src="https://i.imgur.com/1DWuEzi.jpg" alt="imagen no encontrada" width="500" height="300"/>
+        <img src="https://i.imgur.com/1DWuEzi.jpg" alt="imagen Jorge no encontrada" width="500" height="300"/>
     </section>
 
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos destacados)</h2>  
-        <article>
-            <h3>Subtítulo del Video ejemplo</h3>
-            <h6>Hecho con filmora ejemplo</h6>
-            <p><small><strong>Fecha:</strong> x/x/x</small> </p>
-            <p><small><strong>Puedes verlo en:</strong> url web site</small> </p>
-            <p>Descripción del video ejemplo</p>
-            <img src="https://i.imgur.com/JzSc2ix.jpg" alt="imagen no encontrada" width="600 ">
-        </article>
-    </section>
-
-    <section id="experiencia">
-        <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="https://i.imgur.com/OsHzNWQ.jpg"/ width="300" height="500" alt="imagen no encontrada">
+        <article class="proyect">
+            <h3 class="proyect-title">Subtítulo del Video ejemplo</h3>
+            <h6 class="proyect-curso">Hecho con filmora ejemplo</h6>
+            <p class="proyect-date"><small><strong>Fecha:</strong> x/x/x</small> </p>
+            <p class="proyect-url"><small><strong>Puedes verlo en:</strong> url web site</small> </p>
+            <p class="proyect-description">Descripción del video ejemplo</p>
+            <figure class="proyect-imageContainer">
+                <img class="proyect-image" src="https://i.imgur.com/JzSc2ix.jpg" alt="imagen jorge no encontrada" width="600 ">
             </figure>
-            <h3>Recorrido por Argentina 2020</h3>
-            <p>Despúes de una visita por mi escuela secundaria arme este video con amor por esa linda etapa de mi vida.</p>
-            <a href="https://www.youtube.com/watch?v=YCbe3APaDOY&t=54s&ab_channel=JorgeZubieta" target="_blank">Ver evento en este link</a>
         </article>
     </section>
 
-    <section id="contacto">
-        <form action="/suscripción/">
+    <section id="eventos">
+        <h2>Más sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imgageContainer">
+                <img class="event-imgage" src="https://i.imgur.com/OsHzNWQ.jpg"/ width="300" height="500" alt="imagen event no encontrada">
+            </figure>
+            <h3 class="event-title">Recorrido por Argentina 2020</h3>
+            <p class="event-description ">Despúes de una visita por mi escuela secundaria arme este video con amor por esa linda etapa de mi vida.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=YCbe3APaDOY&t=54s&ab_channel=JorgeZubieta" target="_blank">Ver evento en este link</a>
+        </article>
+    </section>
+
+    <section id="contacto" class="contact">
+        <form action="/suscripción/" class="form-enail">
             <h3>Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email">
             <button>Enviar</button>
         </form>
     </section>
     
-    <footer>Footer</footer>
+    <footer class="footer">Footer</footer>
   </body>
 </html>
