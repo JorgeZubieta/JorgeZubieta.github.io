@@ -1,7 +1,27 @@
+/*
+reglas
+selectores
+declaracones
+propiedades
+valores
+de css
+*/
+
+/* selector de etiqueta header - section */
 header{
     background:pink;
+    color: red
 }
 footer{
     background:pink;
+    color: red
 }
 
+/* selector descendente */
+/* body head div nav ol il a */
+
+/* selector de clase se llama con un ponto+class_nombre */
+/* .class_nombre ejemplo ".link*"/
+
+/* selector de id se llama con un numeral+id_nombre */
+/* #id_nombre ejmplo */
