@@ -46,7 +46,18 @@ h1 {
     /* text-decoration: dashed; */
 }
 
+.hero{
+    height: 300px;
+}
 
+.proyect-details {
+    width: 500px;
+    /* height: 100px; */
+}
+
+.proyect-imageContainer {
+    width: 500px;
+} 
 
 footer{
     background:pink;
