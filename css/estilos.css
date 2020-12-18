@@ -53,6 +53,20 @@ h1 strong {
     background-color: grey;
 }
 
+ .proyect {
+    /* border-top-color:grey;
+    border-top-width: 15 px;
+    border-top-style: solid; */
+    border: 1px solid grey;
+    border-radius: 10px;
+    /* 
+    border-top-right: 10px;
+    border-top-left-radius: 50px;
+    border-botoom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    */
+ }
+
 .proyect-details {
     width: 500px;
     /* height: 100px; */
