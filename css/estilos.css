@@ -12,10 +12,7 @@ header{
     background:pink;
     color: red
 }
-footer{
-    background:pink;
-    color: red
-}
+
 
 /* selector descendente */
 /* body head div nav ol il a */
@@ -25,3 +22,22 @@ footer{
 
 /* selector de id se llama con un numeral+id_nombre */
 /* #id_nombre ejmplo */
+
+body {
+    font-family: Open 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', serif;
+}
+
+
+footer{
+    background:pink;
+    color: red
+}
