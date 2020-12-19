@@ -15,9 +15,12 @@ de css
 
 /* selector de id se llama con un numeral+id_nombre */
 /* #id_nombre ejmplo */
-.flexbox {
+
+
+/* .flexbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .box {
@@ -25,19 +28,34 @@ de css
     height: 200px;
     border: 1px solid red;
     flex-shrink: 0;
-    margin: 10px;
+    margin: 100px;
+} */
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-
-
 
 figure{
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    display: flex;
+    align-items: center;
 }
+
+/* .logo {
+    width: 10px; 
+    height: 10px;
+} */
 
 .jorge{
     color: white;
     text-transform: uppercase;
-    display: inline;
+    margin-left: 15px;
+    /* display: inline; */
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 
@@ -121,19 +139,32 @@ h1 strong {
     display: inline;
 }
 
-
 .header {
     background: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
 }
-
-.header a {
+.menu { /* .menu hereda de .header */
+    height: inherit;
+}
+.header ol { /* .header ol hereda de .menu */
+    display: flex;
+    height: inherit;
+}
+.header ol li { /* .header ol li hereda de .header ol */
+    height: inherit;
+  }
+.header a { /* .header a hereda de .header ol li */
     background-color: black;
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; 
 }
-
-
 
 
 .event {
