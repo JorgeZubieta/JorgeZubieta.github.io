@@ -15,6 +15,21 @@ de css
 
 /* selector de id se llama con un numeral+id_nombre */
 /* #id_nombre ejmplo */
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+
+
 figure{
     margin-top: 0px;
 }
@@ -98,9 +113,14 @@ h1 strong {
     /* height: 100px; */
 }
 
-.proyect-imageContainer {
+/* .proyect-imageContainer {
     width: 500px;
-} 
+} */
+.proyect-image {
+    width: 500px;
+    display: inline;
+}
+
 
 .header {
     background: black;
@@ -112,6 +132,8 @@ h1 strong {
     color: white;
     text-decoration: none;
 }
+
+
 
 
 .event {
