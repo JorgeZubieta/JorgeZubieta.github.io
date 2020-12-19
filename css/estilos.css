@@ -15,6 +15,16 @@ de css
 
 /* selector de id se llama con un numeral+id_nombre */
 /* #id_nombre ejmplo */
+figure{
+    margin-top: 0px;
+}
+
+.jorge{
+    color: white;
+    text-transform: uppercase;
+    display: inline;
+}
+
 
 body {
     font-family: Open 'Source Sans Pro', sans-serif;
@@ -103,10 +113,6 @@ h1 strong {
     text-decoration: none;
 }
 
-.logojorge{
-    color: white;
-    text-transform: uppercase;
-}
 
 .event {
     border: 1px solid grey;
