@@ -31,6 +31,11 @@ h6 {
     /* font-style: italic; */
 }
 
+/* elimine margen entre ol y h1 para eliminar el Collapsing margins */
+ol{
+    margin-bottom: 0px;
+}
+
 h1 {
     font-size: 40px;
     line-height: 1.5;
@@ -38,8 +43,10 @@ h1 {
     color: black; 
     /* text-transform: uppercase; */
     /* text-decoration: dashed; */
+    margin-top: 0px;
 }
 
+/* aplique una seleccion descendente */
 h1 strong {
     color: #F4E9A9;
 }
@@ -65,6 +72,7 @@ h1 strong {
     border-botoom-right-radius: 10px;
     border-bottom-left-radius: 10px; 
     */
+    /* margin-bottom: 15px; */
  }
 
 .proyect-details {
@@ -91,6 +99,12 @@ h1 strong {
     color: white;
     text-transform: uppercase;
 }
+
+.event {
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
 
 footer{
     background: black;
