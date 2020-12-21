@@ -102,6 +102,8 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: grey;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
@@ -145,6 +147,7 @@ h1 strong {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    align-items: center;
 }
 .menu { /* .menu hereda de .header */
     height: inherit;
@@ -172,8 +175,16 @@ h1 strong {
     border-radius: 10px;
 }
 
-
-footer{
+.footer{
     background: black;
-    color: white 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer img {
+    vertical-align: middle;
+    margin-bottom: 11px;
+    margin-top: 6px; 
 }
