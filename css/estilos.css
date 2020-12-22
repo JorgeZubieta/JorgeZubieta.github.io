@@ -199,9 +199,44 @@ h2 {
 
 
 .event {
-    border: 1px solid grey;
+    border: 1px solid red;
     border-radius: 10px;
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background:red;
 }
+.event img { 
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-imgageContainer{
+    margin: 0px;
+}
+.event-list{
+    display: flex;
+}
+
+.event-detail{
+    margin: 20px;
+    background-color: pink;
+}
+.event-title{
+    margin: 20px;
+    /* margin-top: -40px; */
+    /* position: relative; */
+}
+/* .event-description{
+    margin: 20px;
+    background: white;
+    margin-top: 0px;
+} */
+
+
 
 .footer{
     background: black;
