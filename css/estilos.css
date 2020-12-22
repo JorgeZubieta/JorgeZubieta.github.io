@@ -247,6 +247,74 @@ h2 {
     border-radius: 5px;
 }
 
+.contact {
+    background: grey;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
+    
+    background-size: 50px 50px;
+    /* valores para el svg */
+
+    margin: 0px 10px;
+}
+.social-link.youtube{
+    background-image: url('../images/youtube.svg');
+    /* svg necesita el ancho y alto para la imagen */
+    /* background-size: 50px 50px; */
+}
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+    /* svg necesita el ancho y alto para la imagen */
+    /* background-size: 50px 50px; */
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+    /* svg necesita el ancho y alto para la imagen */
+    /* background-size: 50px 50px; */
+}
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+    /* svg necesita el ancho y alto para la imagen */
+    /* background-size: 50px 50px; */
+}
+
+
+.form-email input {
+    border-color:  grey;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 30px;
+    background-image: url('../images/envelope.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 5px;
+    margin: 10px 10px;
+}
+.form-email button {
+    display: block;
+    margin: 0px 10px;
+    background: transparent;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 0px;
+    width: 100px;
+    border-radius: 5px;
+}
+.form-email h3 {
+    font-family: Open 'Source Sans Pro', sans-serif;
+    margin: 0px 10px ;
+}
+
 
 
 .footer{
