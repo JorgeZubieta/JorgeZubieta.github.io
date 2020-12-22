@@ -279,7 +279,9 @@ h2 {
 .social-link.github{
     background-image: url('../images/github.svg');
     /* svg necesita el ancho y alto para la imagen */
-    /* background-size: 50px 50px; */
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+
 }
 .social-link.instagram{
     background-image: url('../images/instagram.svg');
