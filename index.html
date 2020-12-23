@@ -19,7 +19,7 @@
         <div class="box"></div>
     </div> -->
     <header class="header">
-    <!-- <div> -->
+      <div class="wrapper">
         <figure class="logo">
           <img src="https://i.imgur.com/noHVV92.jpg" alt="Imagen logo no encontrada" width="50" height="50"> 
           <h2 class="jorge">jorge zubieta</h2>
@@ -37,38 +37,46 @@
             </li>
           </ol>
         </nav>
-      <!-- </div> -->
+      </div>
     </header>
     
     <section class="hero">
+      <div class="wrapper">    
         <h1>
-            Hola soy <strong>Jorge Zubieta</strong><br/>Frontend <strong>Developer</strong><br/>en continua<strong> formación! y te amo mama!</strong>
+            Hola soy <strong>Jorge Zubieta</strong><br/>Frontend <strong>Developer</strong><br/>en continua<strong> formación!</strong>
         </h1>
-        <!-- <img src="https://i.imgur.com/1DWuEzi.jpg" alt="imagen Jorge no encontrada" width="500" height="300"/> -->
-        <!-- vamos usar esta url en el selector de css hero    -->
-    </section>
+        <div>
+          <img hero-image src="https://i.imgur.com/1DWuEzi.jpg" alt="imagen Jorge no encontrada" width="400" height="300"/>
+        </div>
+      <!-- vamos usar esta url en el selector de css hero    -->
+      </div>
+      </section>
 
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio (Proyectos destacados)</h2>  
-        <article class="proyect">
-            <div class="proyect-details">
-                <h3 class="proyect-title">Subtítulo del Video ejemplo</h3>
-                <h6 class="proyect-curso">Hecho con filmora ejemplo</h6>
-                <p class="proyect-date"><small><strong>Fecha:</strong> x/x/x</small> </p>
-                <p class="proyect-url"><small><strong>Puedes verlo en:</strong> url web site</small> </p>
-                <p class="proyect-description">Descripción del video ejemplo</p>
-            </div>
-            <figure class="proyect-imageContainer">
-                <img class="proyect-image" src="https://i.imgur.com/JzSc2ix.jpg" alt="imagen jorge no encontrada">
-            </figure>
-        </article>
-   
-    
-    
+        <div class="wrapper">
+          <h2>Portafolio (Proyectos destacados)</h2>  
+          <article class="proyect">
+              <div class="proyect-details">
+                  <h3 class="proyect-title">Subtítulo del Video ejemplo</h3>
+                  <h6 class="proyect-curso">Hecho con filmora ejemplo</h6>
+                  <p class="proyect-date"><small><strong>Fecha:</strong> x/x/x</small> </p>
+                  <p class="proyect-url"><small><strong>Puedes verlo en:</strong> url web site</small> </p>
+                  <p class="proyect-description">Descripción del video ejemplo</p>
+              </div>
+              <figure class="proyect-imageContainer">
+                  <img class="proyect-image" src="https://i.imgur.com/JzSc2ix.jpg" alt="imagen jorge no encontrada">
+              </figure>
+          </article>  
+        </div>
     </section>
-    
-    <h2 class="event-tituloH2">Más sobre mi experiencia</h2>
+
     <section id="eventos" class="event-lista">    
+      
+      <div class="wrapper">
+        <h2 class="event-tituloH2">Más sobre mi experiencia</h2>
+      </div>
+
+      <div class="wrapper2">  
         <article class="event">
             <figure class="event-imgageContainer">
                 <img class="event-imgage" src="https://i.imgur.com/OsHzNWQ.jpg"/ width="300" height="500" alt="imagen event no encontrada">
@@ -109,9 +117,11 @@
               <a class="event-url" href="https://www.youtube.com/watch?v=YCbe3APaDOY&t=54s&ab_channel=JorgeZubieta" target="_blank">Ver evento</a>
           </div>
         </article>
+      </div>
     </section>
 
     <section id="contacto" class="contact">
+      <div class="wrapper2">  
         <form action="/suscripción/" class="form-email">
             <h3>Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email">
@@ -124,17 +134,19 @@
           <a href="https://github.com/JorgeZubieta" class="social-link github"></a>
           <a href="https://www.instagram.com/jorgezubieta_official/" class="social-link instagram"></a>
         </div>
-
+      </div>
     </section>
     
     <footer class="footer">
-      <div>
-        <a>Curso de desarrollo web online 2020 <img src="https://i.imgur.com/ky76KdY.png" alt="imagen no encontrada" width="80" height="30"></a>
+      <div class="wrapper">
+        <div>
+          <a>Curso de desarrollo Web online 2020 <img src="https://i.imgur.com/ky76KdY.png" alt="imagen no encontrada" width="80" height="30"></a>
+          <a>Designed with pasión by <a href="https://github.com/JorgeZubieta">Jorge Zubieta</a></a>
+        </div>
+        
+        <!-- <div>
+        </div> -->
       </div>
-
-      <div>
-        Designed with pasión by <a href="https://github.com/JorgeZubieta">Jorge Zubieta</a>
-      </div>  
     </footer>
   </body>
 </html>
