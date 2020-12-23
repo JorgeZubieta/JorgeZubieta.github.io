@@ -1,36 +1,3 @@
-/*
-reglas
-selectores
-declaracones
-propiedades
-valores
-de css
-*/
-
-/* selector descendente */
-/* body head div nav ol il a */
-
-/* selector de clase se llama con un ponto+class_nombre */
-/* .class_nombre ejemplo ".link*"/
-
-/* selector de id se llama con un numeral+id_nombre */
-/* #id_nombre ejmplo */
-
-
-/* .flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    flex-shrink: 0;
-    margin: 100px;
-} */
-
 ol,
 ul {
   margin: 0;
@@ -42,6 +9,8 @@ figure{
     /* margin-top: 0px; */
     display: flex;
     align-items: center;
+    margin: 0px;
+    
 }
 
 /* .logo {
@@ -52,7 +21,9 @@ figure{
 .jorge{
     color: white;
     text-transform: uppercase;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    margin: 15px 10px;
+    font-size: 20px;
     /* display: inline; */
     /* display: flex; */
     /* align-items: center; */
@@ -63,6 +34,7 @@ body {
     font-family: Open 'Source Sans Pro', sans-serif;
     margin: 0px;
     font-size: 24px;
+    background-color: #FAFAFA;
 }
 
 h1,
@@ -118,7 +90,7 @@ h2 {
 }
 
 .portfolio{
-    background: #fafafa;
+    /* background: #fafafa; */
     padding: 20px;
 }
 
